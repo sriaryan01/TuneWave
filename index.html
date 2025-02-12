@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="lg.jpeg" type="image/jpeg">
+    <title>TuneWave</title>
+    
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="TuneWave">TuneWave</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+    <div class="heading"><h1>🎶- Music For Your Soul -🎶</h1></div>
+    <div class="container">
+       <div class="load">
+        </div>
+        
+        <div class="songlist">
+            <p>"Discover. Listen. Repeat" </p>
+            
+            <div class="songTemContainer">
+            <div class="songItem">
+                <img src="cover/tareefan.jpeg" alt="1">
+                <span class="songName">Tareefan</span>
+                <span class="songlistPlay"><span class="timestamp">3:27<i id="0" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/mera.jpg" alt="2">
+                <span class="songName">Mera Mann</span>
+                <span class="songlistPlay"><span class="timestamp">2:59<i id="1" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/main.jpg" alt="3">
+                <span class="songName">Main Aa Reha</span>
+                <span class="songlistPlay"><span class="timestamp">4:04<i id="2" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/tujomileya.jpg" alt="4">
+                <span class="songName">Tu Jo Mileya</span>
+                <span class="songlistPlay"><span class="timestamp">2:59<i id="3" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+            
+            <div class="songItem">
+                <img src="cover/talks.jpeg" alt="5">
+                <span class="songName">Talks</span>
+                <span class="songlistPlay"><span class="timestamp">3:58<i id="4" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+            
+            <div class="songItem">
+                <img src="cover/suniyan.jpg" alt="6">
+                <span class="songName">Suniyan Suniyan</span>
+                <span class="songlistPlay"><span class="timestamp">3:31<i id="5" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/baarishein.jpeg" alt="6">
+                <span class="songName">Baarishein</span>
+                <span class="songlistPlay"><span class="timestamp">3:27<i id="6" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/chal.jpeg" alt="6">
+                <span class="songName">Chal Diye Tum Kahan</span>
+                <span class="songlistPlay"><span class="timestamp">4:35<i id="7" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/ishq.jpeg" alt="6">
+                <span class="songName">Ishq - Lost And Found</span>
+                <span class="songlistPlay"><span class="timestamp">3:48<i id="8" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/parshawan.jpg" alt="6">
+                <span class="songName">Parshawan</span>
+                <span class="songlistPlay"><span class="timestamp">2:48<i id="9" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+
+            <div class="songItem">
+                <img src="cover/waalian.jpeg" alt="6">
+                <span class="songName">Waalian</span>
+                <span class="songlistPlay"><span class="timestamp">3:42<i id="10" class="fa-duotone songItemPlay fa-regular fa-circle-play"></i></span></span>
+            </div>
+            
+        </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="MyProgressBar" min="0" value="0" max="100">
+        <label for="volumeSlider">Volume:</label>
+        <input type="range" id="volumeSlider" class="volumeSlider" min="0" max="1" step="0.01" value="1">
+        <div class="icons">
+            <!-- fontAwesome icons -->
+            <i id="prev" class="fa-duotone fa-solid fa-2x fa-arrow-rotate-left"></i>
+            <i id="MasterPlay" class="fa-duotone fa-regular fa-2x fa-circle-play"></i>
+            <i id="next" class="fa-duotone fa-solid fa-2x fa-arrow-rotate-right"></i>
+        </div>
+        <div class="songinfo">
+            <img src="Nt6v.gif "width="50px" id="gif">
+            
+        </div>
+        <div><span id="masterSongName">Tareefan - Harnoor</span></div>
+    </div>
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/66fbd67a74.js" crossorigin="anonymous"></script> 
+</body>
+</html>
